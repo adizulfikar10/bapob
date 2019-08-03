@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class BapopHeader extends Model
+class BapobHeaders extends Model
 {
     //
 }

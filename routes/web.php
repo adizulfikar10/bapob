@@ -18,3 +18,7 @@
 Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
+
+// BAPOB
+Route::get('/listBapob', 'BapobHeaderController@index');
+Route::get('/destroyBapob/{id}', 'BapobHeaderController@destroy');
